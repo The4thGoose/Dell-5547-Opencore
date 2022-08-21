@@ -1262,7 +1262,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02504310J9FH31FB</string>
+                <string></string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1276,9 +1276,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro11,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02P57YKFH00</string>
+                <string></string>
                 <key>SystemUUID</key>
-                <string>D7550317-45B2-4910-AAEE-782BDB157F66</string>
+                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>

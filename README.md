@@ -1,2 +1,47 @@
-# Dell-5547-Opencore
-An updated version of the Opencore EFI for the Dell Latitude 5547 by cuong95nddev
+# An Opencore EFI for the Dell 5547 Laptop
+An updated version of the Opencore EFI for the [Dell Latitude 5547 by cuong95nddev](https://github.com/cuong95nddev/Dell-5547-Hackintosh-OpenCore)
+
+![A picture of the MacOS desktop, running Big Sur, showing the about mac app, with a desert wallpaper](images/screenshot1.png)
+
+## Quick Specs
+- Opencore 0.8.3 (Latest as of Aug 21, 2022)
+- Intel Wireless Card (Intel Wireless 8260)
+- i5-4210u (2c/4t)
+- 16GB Memory (1600 Mhz, A-Tech)
+- Kingston 240GB SSD
+
+## What works
+| Feature | Status | Notes |
+| ------------- | ------------- | ------------- |
+| **Backlight Controls** | ✅ Working |   |
+| **Battery** | ✅ Working | I reccomend using [Apple Juice](https://github.com/raphaelhanneken/apple-juice) |
+| **iServices** | ✅ Working | You will have to set up your own iServices, it's easy, see [here](#-iServices) |
+| **All 3 USB Ports** | ✅ Working |   |
+| **Keyboard** | ✅ Working |   |
+| **Ethernet** | ✅ Working |   |
+| **Camera** | ✅ Working |   |
+| **HDMI** | ✅ Working |   |
+| **Graphics** | ✅ Working | Supposedly, there is a model with a dgpu, so yymv, but this EFI is for the iGPU |
+| **Speakers and Headphones** | ✅ Working |   |
+| **WiFi/Bluetooth** | ✅ Working | Uses itlwm, so some setup is required, see [below](#-WiFi) |
+
+
+
+## iServices
+In order to activate iServices, you need to provide a serial number, the easiest way I have found is through Opencore Auxilary Tools
+
+1. Download the latest release of OCAT_Mac.dmg [here](https://github.com/ic005k/OCAuxiliaryTools)
+2. Extract the app to your downloads folder
+3. Open the app and click **Mount ESP** in the top bar
+   
+    ![The mount ESP Button circled in red surrounded by the rest of the menu bar](images/MountEFI.png)
+4. Select the drive you installed MacOS on and enter your password when prompted
+5. Navigate to the **PI** tab
+6. Next to SystemProductName, click `generate`
+7. Click the save button at the top of the screen
+8. Reboot
+
+## WiFi
+
+1. Install [Heliport](https://github.com/OpenIntelWireless/HeliPort)
+2. Reboot
