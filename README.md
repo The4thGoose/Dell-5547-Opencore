@@ -15,15 +15,15 @@ An updated version of the Opencore EFI for the [Dell Latitude 5547 by cuong95ndd
 | ------------- | ------------- | ------------- |
 | **Backlight Controls** | ✅ Working |   |
 | **Battery** | ✅ Working | I reccomend using [Apple Juice](https://github.com/raphaelhanneken/apple-juice) |
-| **iServices** | ✅ Working | You will have to set up your own iServices, it's easy, see [here](#-iServices) |
+| **iServices** | ✅ Working | You will have to set up your own iServices, it's easy, see below |
 | **All 3 USB Ports** | ✅ Working |   |
 | **Keyboard** | ✅ Working |   |
 | **Ethernet** | ✅ Working |   |
 | **Camera** | ✅ Working |   |
 | **HDMI** | ✅ Working |   |
-| **Graphics** | ✅ Working | Supposedly, there is a model with a dgpu, so yymv, but this EFI is for the iGPU |
+| **Graphics** | ✅ Working | Supposedly, there is a model with a dgpu, so yymv, but this EFI is for the iGPU model |
 | **Speakers and Headphones** | ✅ Working |   |
-| **WiFi/Bluetooth** | ✅ Working | Uses itlwm, so some setup is required, see [below](#-WiFi) |
+| **WiFi/Bluetooth** | ✅ Working | Uses itlwm, so some setup is required, see below |
 
 
 
