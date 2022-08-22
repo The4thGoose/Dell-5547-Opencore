@@ -27,7 +27,12 @@ An updated version of the Opencore EFI for the [Dell Latitude 5547 by cuong95ndd
 | **Speakers and Headphones** | ✅ Working |   |
 | **WiFi/Bluetooth** | ✅ Working | Uses itlwm, so some setup is required, see below |
 
+## **Critical Notes**
+There are 2 Kexts that you should **NEVER** update. Doing so will break built in keyboard support.
+- VoodooI2C.kext
+- VoodooI2CHID.kext
 
+I have had success updating VoodooPS2Controller.kext but make sure you have a backup first. You can always use your install usb to boot from a "clean" opencore EFI, as OC kexts are only initiated before the boot menu. 
 
 ## iServices
 In order to activate iServices, you need to provide a serial number, the easiest way I have found is through Opencore Auxilary Tools
