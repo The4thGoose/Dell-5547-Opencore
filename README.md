@@ -23,7 +23,7 @@ An updated version of the Opencore EFI for the [Dell Latitude 5547 by cuong95ndd
 | **Ethernet** | ✅ Working |   |
 | **Camera** | ✅ Working |   |
 | **HDMI** | ✅ Working |   |
-| **Graphics** | ✅ Working | Supposedly, there is a model with a dgpu, so yymv, but this EFI is for the iGPU model |
+| **Graphics** | ✅ Working | Supposedly, there is a model with a dgpu, so ymmv, but this EFI is for the iGPU model |
 | **Speakers and Headphones** | ✅ Working |   |
 | **WiFi/Bluetooth** | ✅ Working | Uses itlwm, so some setup is required, see below |
 
