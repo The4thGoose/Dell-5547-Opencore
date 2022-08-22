@@ -52,3 +52,5 @@ In order to activate iServices, you need to provide a serial number, the easiest
 
 1. Install [Heliport](https://github.com/OpenIntelWireless/HeliPort)
 2. Reboot
+
+Note: There is no handoff support in the current configuration. If you need it, either install [AirportItlwm](https://openintelwireless.github.io/itlwm/Installation.html#airportitlwm) (which has [partial support](https://openintelwireless.github.io/itlwm/FAQ.html#does-it-support-apple-s-continuity-framework-airdrop-handoff)) or purchase a [natively supported wifi card](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html)
