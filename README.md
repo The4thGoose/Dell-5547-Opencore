@@ -1,3 +1,8 @@
+# I NO LONGER OWN THIS LAPTOP, THIS WILL NOT BE UPDATED
+### I updated all the efis but forgot to back it up here, but it will work on monterey with some kext updates
+Honestly, just build a new image using this or dortania as a framework. 
+
+
 # An Opencore EFI for the Dell 5547 Laptop
 An updated version of the Opencore EFI for the [Dell Latitude 5547 by cuong95nddev](https://github.com/cuong95nddev/Dell-5547-Hackintosh-OpenCore)
 
